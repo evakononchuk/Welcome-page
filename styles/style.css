@@ -1,10 +1,34 @@
 @media (max-width: 576px) {
-  .wrap-header h1 {
+  .container .wrap-header h1 {
     font-size: 38px;
+  }
+
+  .container .wrap-header h3 {
+    font-size: 20px;
+  }
+
+  .container .navigation-links {
+    margin: 20px 0;
   }
 
   img {
     display: none;
+  }
+
+  .wrap-body p {
+    padding-bottom: 0;
+  }
+
+  .media-hide {
+    display: none;
+  }
+
+  .wrap-body {
+    text-align: center;
+  }
+  /*--about.html--*/
+  #contact .email-link {
+    font-size: 20px;
   }
 }
 
@@ -50,7 +74,8 @@ p {
 }
 
 .wrap-header p {
-  padding: 20px;
+  padding: 30px 10px;
+  margin-bottom: 0;
 }
 
 .wrap-header h1 {
@@ -103,6 +128,7 @@ p {
   color: var(--primary-color);
   text-align: center;
   display: block;
+  margin-top: 30px;
 }
 
 .about-paragraphs {
@@ -131,8 +157,5 @@ p {
 
 #contact {
   text-align: center;
-}
-
-.container {
-  margin-bottom: 40px;
+  margin-top: 20px;
 }
