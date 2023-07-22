@@ -147,7 +147,7 @@ p {
   display: flex;
   justify-content: center;
   color: var(--primary-color);
-  font-size: 28px;
+  font-size: 22px;
   text-decoration: none;
 }
 
@@ -157,5 +157,5 @@ p {
 
 #contact {
   text-align: center;
-  margin-top: 20px;
+  margin: 40px 0;
 }
